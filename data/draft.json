@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "draft": {
+            "PG": "Oscar Robertson",
+            "SG": "Michael Jordan",
+            "SF": "LeBron James",
+            "PF": "Tim Duncan",
+            "C": "Hakeem Olajuwon"
+        }
+    },
+    {
+        "id": 2,
+        "draft": {
+            "PG": "Stephen Curry",
+            "SG": "Michael Jordan",
+            "SF": "Larry Bird",
+            "PF": "Dirk Nowitzki",
+            "C": "Kareem Abdul-Jabbar"
+        }
+    }
+]
