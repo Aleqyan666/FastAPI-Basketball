@@ -1,4 +1,4 @@
-# FastAPI Basketball Draft API
+# FastAPI Basketball API
 
 ## Description
 This project is a FastAPI application that allows you to manage and interact with basketball players. It supports functionalities like adding players, updating stats, retrieving top players based on different stats, and generating random drafts.
@@ -75,7 +75,7 @@ FastAPI
 - `GET /players/championships/{min_championships}`: Get players with a minimum number of championships.
 - `GET /players/team/{team_name}`: Get players who have played for a given team.
 - `GET /players/no-championships`: Get players with no championships.
-- `GET /players/hall-of-fame`: Get Hall of Fame candidates based on a custom formula.
+- `GET /players/hall-of-fame`: Get Hall of Fame candidates based on a custom formula & criteria.
 - `GET /players/all-stars/{min_all_star_appearances}`: Get players with a minimum number of all-star appearances.
 
 ### Player Management Endpoints
@@ -83,8 +83,8 @@ FastAPI
 - `PUT /players/all-star/add-allstar/{player_id}`: Add one all-star appearance to the specified player.
 - `PUT /players/change-team/{player_id}`: Change the team of a specified player.
 - `PUT /players/change-position/{player_id}`: Change the position of a specified player.
-- `POST /players/add-player/`: Add a new player to the database.
-- `DELETE /players/delete/{player_id}/`: Delete a player from the database based on their unique player_id.
+- `POST /players/add-player/`: Add a new player to the dataset.
+- `DELETE /players/delete/{player_id}/`: Delete a player from the dataset based on their unique player_id.
 
 ### Draft Endpoints
 - `POST /team/random-draft/`: Generate a random draft based on player positions.
